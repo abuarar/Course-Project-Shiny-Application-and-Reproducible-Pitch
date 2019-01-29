@@ -15,11 +15,6 @@ library(caret)
 library(randomForest)
 library(ipred)
 
-library(magrittr)
-library(plyr)
-library(dplyr)
-library(tidyr)
-library(shinyjs)
 
 download.file("https://vincentarelbundock.github.io/Rdatasets/csv/carData/Salaries.csv","./Salaries.csv")
 Salaries<-read.csv("./Salaries.csv")
